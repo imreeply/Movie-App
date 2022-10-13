@@ -1,0 +1,48 @@
+body {
+  background: #2c3639;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  padding: 2rem;
+}
+.navbar-brand {
+  color: white;
+  font-family: "Kaushan Script", cursive;
+}
+
+/* Card */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.card {
+  margin: 0.5rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.25));
+}
+
+.card img {
+  max-height: 300px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+h5 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 17ch;
+}
+/* End Card */
